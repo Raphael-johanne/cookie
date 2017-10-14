@@ -1,0 +1,19 @@
+/*!
+ * Copyright(c) Raphael Colboc
+ * MIT Licensed
+ **/
+{
+"manifest_version": 2,
+"name": "FriendlyCookie",
+"description": "FriendlyCookie",
+"browser_action" :{	
+	"default_popup" :"friendlycookie.html"
+},
+"permissions": [
+	  "tabs", 
+	  "cookies" , 
+	  "*://*/",
+	  "storage"
+],
+"version": "1.0.0"
+}

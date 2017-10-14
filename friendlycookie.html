@@ -1,0 +1,44 @@
+<!--
+Copyright(c) Raphael Colboc
+MIT Licensed
+-->
+
+<!doctype html>
+<html>
+<head>
+	<script type="text/javascript" src="./js/jquery-3.2.1.min.js"></script> 
+	<script type="text/javascript" src="./js/jquery.cookie.js"></script>
+	<script type="text/javascript" src="./js/friendlycookie.js"></script>
+	<link rel="stylesheet" media="all" href="./css/style.css" />
+</head>
+	<body >
+		
+		<div width="500px" style="padding:20px;">	
+			<div id="notification">&nbsp;</div>
+			<fieldset>
+				<label for="cookie_name">Cookie name</label>
+				<input placeholder="Enter a cookie name without special characters or spaces" type="text" id="cookie_name" />
+			
+				<label for="cookie_value">Cookie value</label>
+				<input placeholder="Enter a cookie value" type="text" id="cookie_value" />
+			
+				<button id="cookie_save">Add</button>
+			</fieldset> 
+			
+			<div id="content" style="display:hidden ; width:580px; margin-bottom:40px;">		
+				<table id="#table">
+					<thead>
+						<tr>
+							<th scope="col">Name</th>
+							<th scope="col">Value</th>
+							<th scope="col">Remove</th>
+							<th scope="col">Availibility</th>
+						</tr>	
+					</thead>
+					<tbody></tbody>	
+				</table>	
+			</div>
+		</div>	
+		<footer id="footer">FriendlyCookie v1.0.0 powered by <a id="copy" href="mailto:racol@smile.fr">@racol</a></footer>
+	</body>
+</html>

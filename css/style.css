@@ -1,0 +1,179 @@
+/*!
+ * Copyright(c) Raphael Colboc
+ * MIT Licensed
+ **/
+
+body {
+  font-family: calibri;
+  font-size: 15px;
+}
+table {
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  table-layout: fixed;
+}
+table caption {
+  margin: .5em 0 .75em;
+}
+table tr {
+  background: #f8f8f8;
+  border: 1px solid #ddd;
+  padding: .35em;
+}
+table th,
+table td {
+  padding: .625em;
+  text-align: center;
+}
+table th {
+
+  letter-spacing: .1em;
+  text-transform: uppercase;
+}
+
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab);
+* {
+/* With these codes padding and border does not increase it's width and gives intuitive style.*/
+
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+body {
+margin:0;
+padding:0;
+}
+div#envelope{
+width: 55%;
+margin: 10px 30% 10px 25%;
+padding:10px 0;
+border: 2px solid gray;
+border-radius:10px;
+}
+form{
+width:70%;
+margin:4% 15%;
+}
+header{
+background-color: #4180C5;
+text-align: center;
+padding-top: 12px;
+padding-bottom: 8px;
+margin-top: -11px;
+margin-bottom: -8px;
+border-radius: 10px 10px 0 0;
+color: aliceblue;
+}
+
+/* Makes responsive fields. Sets size and field alignment.*/
+input[type=text]{
+margin-bottom: 20px;
+margin-top: 10px;
+width:100%;
+padding: 15px;
+border-radius:5px;
+border:1px solid #ccc;
+}
+button
+{
+margin-bottom: 20px;
+padding: 15px;
+border-radius:5px;
+border:1px solid #000;
+background-color: #000;
+color: aliceblue;
+font-size:15px;
+cursor:pointer;
+float:right;
+}
+#cookie_save:hover
+{
+background-color: white;
+color: #000;
+}
+
+input[type=text]:focus,textarea:focus {
+border-color: #000;
+}
+
+a:hover {
+cursor: pointer;
+}
+
+#footer {
+   position:fixed;
+   padding:5px;
+   padding-right:10px;
+   left:0px;
+   bottom:0px;
+   height:30px;
+   width:100%;
+   text-align:right;
+   background:#000;
+   font-family:calibri;
+   color:white;
+}
+
+p    {
+  margin-top:50px;
+  padding:10px;
+}   
+
+p.error    {
+   border:1px solid #ebccd1;
+   background-color:#f2dede;
+   color:#a94442;
+}                      
+
+p.success    {
+   border:1px solid #d6e9c6;
+   background-color:#dff0d8;
+   color:#3c763d;
+}   
+
+p.info    {
+    color: #31708f;
+    background-color: #d9edf7;
+    border-color: #bce8f1;
+}   
+
+p.warning    {
+    color: #8a6d3b;
+    background-color: #fcf8e3;
+    border-color: #faebcc;
+}   
+
+#copy {
+   text-decoration:underline;
+   color:white;
+}
+
+fieldset{
+   border: 1px solid #ccc;
+   border-collapse: collapse;
+   text-decoration:underline;
+   margin-bottom:20px;
+   background: #f8f8f8;
+}
+
+.action{
+  display:inline-block;
+  width:15px;
+  height:15px;
+  background-size: 15px;
+}
+
+.disable-cookie{
+  background-image: url('../images/if_Cancel_27836.png');
+}
+
+.enable-cookie{
+  background-image: url('../images/if_Check_27837.png');
+}
+
+.remove-cookie{
+  background-image: url('../images/if_Remove_27874.png');
+}
