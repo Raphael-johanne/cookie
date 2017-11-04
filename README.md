@@ -2,7 +2,7 @@
 
 # Friendlycookie
 
-Friendlycookie is an extension to manage cookies on Google Chrome browser. The main difference between EditThisCookie and Friendlycookie is that you can disable/enable a cookie without to have to remove it.
+Friendlycookie is an extension to manage cookies on Google Chrome browser. The main difference between EditThisCookie and Friendlycookie is that you can disable/enable a cookie without having to remove it.
 
 ### Good to know
 
